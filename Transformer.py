@@ -95,7 +95,7 @@ def generate_text(model, tokenizer, prompt, max_length=100, temperature=1.0, top
 
 if __name__ == "__main__":
     directory_path = 'jyxstxtqj_downcc.com'
-    model_path = "homework_4"
+    model_path = "hw4"
 
     novels, f_names = read_novels(directory_path)
     model, tokenizer = load_model_and_tokenizer(model_path)
